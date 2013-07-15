@@ -10,7 +10,7 @@ $(document).ready(function () {
     });
 
     //activated button btn-enter
-    $(document).on("keyup", "#login", function () {
+    $(document).on("keyup", "#username", function () {
         if ((this.value.trim() != '')) {
             if ($("#password").val() != '') {
                 $("#btn-enter").prop('disabled', false);
@@ -43,23 +43,33 @@ $(document).ready(function () {
         } else $("#btn-create").prop('disabled', true);
     });
 
+
     $(document).on("click", "#btn-create", function () {
         createNewUser();
     });
 
+
+    //createNewUser
     function createNewUser() {
-        var login = $("#loginRegistration").val();
+        var username = $("#loginRegistration").val();
         var password = $("#passwordRegistration").val();
-        var user = new User (login, password);
-        console.log("login: " + login);
+        var authority = "ROLE_USER";
+        var enabled = true;
+        var user = new User (username, password, authority, enabled);
+        console.log("username: " + username);
         console.log("password: " + password);
+        console.log("authority: " + authority);
+        console.log("enabled: " + enabled);
+
         toDoEntity.createEntityUser(user);
         toDoAJAX.createUser(user, function(){
-            console.log("login: " + user.getLogin());
+            console.log("username: " + user.getUsername());
             console.log("password: " + user.getPassword());
             $("#registrationForm").fadeOut(400);
             $("#loginForm").fadeIn(100);
             $("#loginCreate").fadeIn(100);
         })
     }
+
+
 });

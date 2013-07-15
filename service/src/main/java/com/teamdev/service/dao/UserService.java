@@ -1,6 +1,7 @@
 package com.teamdev.service.dao;
 
 import com.teamdev.model.entity.DTO.UserDTO;
+import com.teamdev.model.entity.UserAuthority;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -22,10 +23,12 @@ public class UserService implements User {
     private EntityManager em;
 
     @Override
-    public UserDTO createUser(String userLogin, String userPassword) {
-        com.teamdev.model.entity.User user = new com.teamdev.model.entity.User();
-        user.setLogin(userLogin);
-        user.setPassword(userPassword);
+    public UserDTO createUser(String username, String password, UserAuthority authority, Boolean enabled) {
+        com.teamdev.model.entity.User user = new com.teamdev.model.entity.User(username, password, authority, enabled);
+        user.setUsername(username);
+        user.setPassword(password);
+        user.setAuthority(authority);
+        user.setEnabled(enabled);
         em.persist(user);
         return new UserDTO(user);
     }

@@ -19,7 +19,7 @@
 <div class="container">
     <div class="row span4">
         <div class="well" id="loginForm">
-            <p><input type="text" class="span3" id="login" placeholder="Enter your login"><i class="icon-hand-left"></i></p>
+            <p><input type="text" class="span3" id="username" placeholder="Enter your username"><i class="icon-hand-left"></i></p>
             <p><input type="password" class="span3" id="password" placeholder="Enter your password"><i class="icon-hand-left"></i></p>
             <p><button class="btn" id="btn-enter" disabled><i class="icon-ok-sign"></i> Enter</button></p>
         </div>
@@ -31,7 +31,7 @@
 <div class="container">
     <div class="row span4">
         <div class="well" id="registrationForm">
-            <p><input type="text" class="span3" id="loginRegistration" placeholder="Enter your login"><i class="icon-hand-left"></i></p>
+            <p><input type="text" class="span3" id="loginRegistration" placeholder="Enter your username"><i class="icon-hand-left"></i></p>
             <p><input type="password" class="span3" id="passwordRegistration" placeholder="Enter your password"><i class="icon-hand-left"></i></p>
             <p><button class="btn" id="btn-create" disabled><i class="icon-ok-sign"></i> Create new user</button></p>
         </div>

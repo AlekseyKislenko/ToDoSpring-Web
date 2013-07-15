@@ -18,9 +18,13 @@ public class User implements Persistent {
     private Long id;
 
     @Column(unique = true)
-    private String login;
+    private String username;
 
     private String password;
+
+    private UserAuthority authority;
+
+    private Boolean enabled;
 
     @OneToMany(mappedBy = "taskUser",cascade={CascadeType.ALL})
     private List<Task> tasks;
@@ -29,6 +33,20 @@ public class User implements Persistent {
     private List<Task> taskAssignee;
 
     public User() {
+    }
+
+    public User(String username, String password, UserAuthority authority, Boolean enabled) {
+        this.username = username;
+        this.password = password;
+        this.authority = authority;
+        this.enabled = enabled;
+    }
+
+    public User(User user){
+        this.username = user.getUsername();
+        this.password = user.getPassword();
+        this.authority = user.getAuthority();
+        this.enabled = user.getEnabled();
     }
 
     public List<Task> getTasksByUser (User user){
@@ -43,12 +61,12 @@ public class User implements Persistent {
         this.id = id;
     }
 
-    public String getLogin() {
-        return login;
+    public String getUsername() {
+        return username;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setUsername(String login) {
+        this.username = login;
     }
 
     public String getPassword() {
@@ -57,6 +75,22 @@ public class User implements Persistent {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public UserAuthority getAuthority() {
+        return authority;
+    }
+
+    public void setAuthority(UserAuthority authority) {
+        this.authority = authority;
+    }
+
+    public Boolean getEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(Boolean enabled) {
+        this.enabled = enabled;
     }
 
     public List<Task> getTasksByUserAssignee(User user) {

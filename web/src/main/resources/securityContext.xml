@@ -7,17 +7,17 @@
 	http://www.springframework.org/schema/security/spring-security-3.1.xsd">
 
     <http auto-config="true">
-        <intercept-url pattern="/" access="ROLE_USER" />
+        <intercept-url pattern="/" access="ROLE_USER"/>
         <form-login login-page="/login.jsp" default-target-url="/pages/index.jsp"
-                    authentication-failure-url="/login.jsp?error=true" />
+                    authentication-failure-url="/login.jsp?error=true"/>
         <logout logout-url="/logout"/>
     </http>
 
     <authentication-manager>
         <authentication-provider>
-            <jdbc-user-service id="userDetails" data-source-ref="dataSource"
-            users-by-username-query="SELECT login, password FROM userDTO WHERE login=?"
-            authorities-by-username-query="SELECT login FROM userDTO WHERE login=?" />
+            <jdbc-user-service id="userDetailsService" data-source-ref="dataSource"
+                               users-by-username-query="SELECT username, password, enabled FROM userDTO WHERE username=?"
+                               authorities-by-username-query="SELECT username, authority FROM userDTO WHERE username=?"/>
         </authentication-provider>
     </authentication-manager>
 

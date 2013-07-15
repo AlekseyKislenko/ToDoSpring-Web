@@ -3,6 +3,7 @@ package com.teamdev.service;
 import com.teamdev.model.entity.DTO.TaskDTO;
 import com.teamdev.model.entity.DTO.UserDTO;
 import com.teamdev.model.entity.TaskState;
+import com.teamdev.model.entity.UserAuthority;
 import com.teamdev.service.dao.TaskService;
 import com.teamdev.service.dao.UserService;
 import org.junit.Test;
@@ -38,7 +39,7 @@ public class TaskServiceDTOTest {
 
     @Test
     public void testSavedTaskHasId() {
-        UserDTO user = userService.createUser("Mike", "root");
+        UserDTO user = userService.createUser("Mike", "root", UserAuthority.ROLE_USER, true);
         TaskDTO task = taskService.createTask("read a book", user);
         assertNotNull(task.getId());
         long id1 = task.getId();
@@ -47,7 +48,7 @@ public class TaskServiceDTOTest {
 
     @Test (expected=NullPointerException.class)
     public void testDeleteByTask() {
-        UserDTO user = userService.createUser("Mike1", "root");
+        UserDTO user = userService.createUser("Mike1", "root", UserAuthority.ROLE_USER, true);
         TaskDTO task1 = taskService.createTask("read a book", user);
         TaskDTO task2 = taskService.createTask("buy the book", user);
         long id1 = task1.getId();
@@ -60,7 +61,7 @@ public class TaskServiceDTOTest {
 
     @Test (expected=NullPointerException.class)
     public void testDeleteTaskById() {
-        UserDTO user = userService.createUser("Mike", "root");
+        UserDTO user = userService.createUser("Mike", "root", UserAuthority.ROLE_USER, true);
         TaskDTO task = taskService.createTask("read a book", user);
         long id1 = task.getId();
         assertTrue(taskService.deleteTaskById(id1));
@@ -70,7 +71,7 @@ public class TaskServiceDTOTest {
     @Test
     public void testChangeTaskState() {
 
-        UserDTO user = userService.createUser("Mike", "root");
+        UserDTO user = userService.createUser("Mike", "root", UserAuthority.ROLE_USER, true);
         TaskDTO task = taskService.createTask("read a book", user);
         Long id = task.getId();
 
@@ -95,7 +96,7 @@ public class TaskServiceDTOTest {
     @Test
     public void testChangeTaskText() {
 
-        UserDTO user = userService.createUser("Mike", "root");
+        UserDTO user = userService.createUser("Mike", "root", UserAuthority.ROLE_USER, true);
         TaskDTO task = taskService.createTask("read a book", user);
         Long id = task.getId();
 
@@ -107,25 +108,25 @@ public class TaskServiceDTOTest {
     @Test
     public void testChangeTaskAssignee() {
 
-        UserDTO user1 = userService.createUser("Mike", "root");
-        UserDTO user2 = userService.createUser("Tom", "root");
+        UserDTO user1 = userService.createUser("Mike", "root", UserAuthority.ROLE_USER, true);
+        UserDTO user2 = userService.createUser("Tom", "root", UserAuthority.ROLE_USER, true);
         TaskDTO task = taskService.createTask("read a book", user1);
         Long id = task.getId();
         //before Changes
-        assertEquals(user1.getLogin(), task.getTaskAssignee().getLogin());
+        assertEquals(user1.getUsername(), task.getTaskAssignee().getUsername());
 
         taskService.changeTaskAssignee(id, user2);
         task = taskService.getTaskById(id);
         //after Changes
-        assertEquals(user2.getLogin(), task.getTaskAssignee().getLogin());
+        assertEquals(user2.getUsername(), task.getTaskAssignee().getUsername());
     }
 
 
     @Test
     public void testGetTasksByUserOrAssignee() {
         // Garry and Peter create new tasks
-        UserDTO user1 = userService.createUser("Garry", "root");
-        UserDTO user2 = userService.createUser("Peter", "root");
+        UserDTO user1 = userService.createUser("Garry", "root", UserAuthority.ROLE_USER, true);
+        UserDTO user2 = userService.createUser("Peter", "root", UserAuthority.ROLE_USER, true);
 
         TaskDTO task1 = taskService.createTask("1read a first book", user1);
         TaskDTO task2 = taskService.createTask("2read a second book", user1);
@@ -135,14 +136,14 @@ public class TaskServiceDTOTest {
 
         List<TaskDTO> tasks1 = taskService.getTasksByUser(user1);
         assertEquals(2, tasks1.size());
-        assertEquals(user1.getLogin(), tasks1.get(0).getTaskUser().getLogin());
-        assertEquals(user1.getLogin(), tasks1.get(1).getTaskUser().getLogin());
+        assertEquals(user1.getUsername(), tasks1.get(0).getTaskUser().getUsername());
+        assertEquals(user1.getUsername(), tasks1.get(1).getTaskUser().getUsername());
 
         List<TaskDTO> tasks2 = taskService.getTasksByUser(user2);
         assertEquals(3, tasks2.size());
-        assertEquals(user2.getLogin(), tasks2.get(0).getTaskUser().getLogin());
-        assertEquals(user2.getLogin(), tasks2.get(1).getTaskUser().getLogin());
-        assertEquals(user2.getLogin(), tasks2.get(2).getTaskUser().getLogin());
+        assertEquals(user2.getUsername(), tasks2.get(0).getTaskUser().getUsername());
+        assertEquals(user2.getUsername(), tasks2.get(1).getTaskUser().getUsername());
+        assertEquals(user2.getUsername(), tasks2.get(2).getTaskUser().getUsername());
 
         //Next... Garry is creator, but not assignee.
 

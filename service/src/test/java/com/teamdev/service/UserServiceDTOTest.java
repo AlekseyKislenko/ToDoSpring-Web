@@ -1,6 +1,7 @@
 package com.teamdev.service;
 
 import com.teamdev.model.entity.DTO.UserDTO;
+import com.teamdev.model.entity.UserAuthority;
 import com.teamdev.service.dao.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,32 +30,32 @@ public class UserServiceDTOTest {
 
     @Test
     public void testSavedUserHasId() {
-        UserDTO user = userService.createUser("John", "root");
+        UserDTO user = userService.createUser("John", "root", UserAuthority.ROLE_USER, true);
         assertNotNull(user.getId());
         assertNotNull(userService.getUserById(user.getId()));
     }
 
     @Test
     public void testDeleteUserById() {
-        UserDTO user = userService.createUser("Mike", "root");
+        UserDTO user = userService.createUser("Mike", "root", UserAuthority.ROLE_USER, true);
         assertTrue(userService.deleteUserById(user.getId()));
     }
 
     @Test
     public void testSelectListUsers() {
-        UserDTO user1 = userService.createUser("Mike", "root");
-        UserDTO user2 = userService.createUser("John", "root");
-        UserDTO user3 = userService.createUser("Garry", "root");
-        UserDTO user4 = userService.createUser("Peter", "root");
+        UserDTO user1 = userService.createUser("Mike", "root", UserAuthority.ROLE_USER, true);
+        UserDTO user2 = userService.createUser("John", "root", UserAuthority.ROLE_USER, true);
+        UserDTO user3 = userService.createUser("Garry", "root", UserAuthority.ROLE_USER, true);
+        UserDTO user4 = userService.createUser("Peter", "root", UserAuthority.ROLE_USER, true);
 
         List<UserDTO> allUsers = userService.getAllUsers();
 
         assertEquals(4, allUsers.size());
 
-        assertEquals(user1.getLogin(), allUsers.get(0).getLogin());
-        assertEquals(user2.getLogin(), allUsers.get(1).getLogin());
-        assertEquals(user3.getLogin(), allUsers.get(2).getLogin());
-        assertEquals(user4.getLogin(), allUsers.get(3).getLogin());
+        assertEquals(user1.getUsername(), allUsers.get(0).getUsername());
+        assertEquals(user2.getUsername(), allUsers.get(1).getUsername());
+        assertEquals(user3.getUsername(), allUsers.get(2).getUsername());
+        assertEquals(user4.getUsername(), allUsers.get(3).getUsername());
     }
 
 

@@ -19,6 +19,6 @@ public class UserController {
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     @ResponseBody
     public UserDTO createUser(@RequestBody final UserDTO user){
-        return userService.createUser(user.getLogin(), user.getPassword());
+        return userService.createUser(user.getUsername(), user.getPassword(), user.getAuthority(), user.getEnabled());
     }
 }

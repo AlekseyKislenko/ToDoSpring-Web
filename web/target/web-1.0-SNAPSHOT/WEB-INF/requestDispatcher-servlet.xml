@@ -14,7 +14,6 @@
     <context:component-scan base-package="com.teamdev.web.controller"/>
     <mvc:resources mapping="/resources/**" location="/WEB-INF/pages/"/>
     <mvc:resources mapping="pages/**" location="/WEB-INF/pages/"/>
-    <mvc:resources mapping="/favicon.ico" location="/favicon.ico" order="0"/>
 
     <mvc:annotation-driven/>
 

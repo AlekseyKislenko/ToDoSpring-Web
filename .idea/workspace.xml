@@ -9,7 +9,7 @@
     <file path="/pom.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373876376806" ignored="false" />
     <file path="/User.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372111427710" ignored="false" />
     <file path="/Task.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372118733273" ignored="false" />
-    <file path="/fragment.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373358862822" ignored="false" />
+    <file path="/fragment.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373897480853" ignored="false" />
     <file path="/applicationContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373357428834" ignored="false" />
     <file path="/PersonServiceTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370810036324" ignored="false" />
     <file path="/Dao.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370893629729" ignored="false" />
@@ -18,7 +18,7 @@
     <file path="/TaskServiceTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1371670766368" ignored="false" />
     <file path="/TaskService.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373356101880" ignored="false" />
     <file path="/Dummy.txt" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373349144898" ignored="false" />
-    <file path="/UserService.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373353581785" ignored="false" />
+    <file path="/UserService.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373908063032" ignored="false" />
     <file path="/persistence.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370949725573" ignored="false" />
     <file path="/Rating.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370757609442" ignored="false" />
     <file path="/service.iml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370808610095" ignored="false" />
@@ -28,15 +28,15 @@
     <file path="$PROJECT_DIR$/src/test/java/com/teamdev/sample/UserServiceTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370810912001" ignored="false" />
     <file path="/TaskState.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1371409958905" ignored="false" />
     <file path="/TaskDTO.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372111222101" ignored="false" />
-    <file path="/UserDTO.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372111411482" ignored="false" />
+    <file path="/UserDTO.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373901998488" ignored="false" />
     <file path="/TastStateDTO.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1371483808826" ignored="false" />
     <file path="/TaskStateDTO.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1371484628696" ignored="false" />
-    <file path="/a.dummy" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372091571644" ignored="false" />
+    <file path="/a.dummy" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373908114594" ignored="false" />
     <file path="/TestScene.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1371671243640" ignored="false" />
     <file path="/TaskServiceDAOTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372089029744" ignored="false" />
     <file path="/TaskServiceDTOTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372118987129" ignored="false" />
     <file path="/Persistent.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372100682119" ignored="false" />
-    <file path="/UserServiceDTOTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372110321134" ignored="false" />
+    <file path="/UserServiceDTOTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373898545591" ignored="false" />
     <file path="$PROJECT_DIR$/../Копии/TeamDev_Lesson_2_-Step_3-Панько_Fresh/ToDoListServer-master/ToDoListServer/.idea/workspace.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373343127719" ignored="false" />
     <file path="/UserController.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373353780082" ignored="false" />
     <file path="/requestDispatcher-servlet.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373879606115" ignored="false" />
@@ -47,27 +47,28 @@
     <file path="/webApplicationContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373379612634" ignored="false" />
     <file path="/web.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373881088338" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoSample/TeamDev_Lesson_2_-Step_3-Zhykharev/TeamDev_Lesson_2_-Step_3-master/webModule/src/main/webapp/WEB-INF/web.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373355732072" ignored="false" />
-    <file path="/springSecurityContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373358364420" ignored="false" />
+    <file path="/springSecurityContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373896572201" ignored="false" />
     <file path="/DefaultPageController.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373358967532" ignored="false" />
-    <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/.idea/workspace.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373894136417" ignored="false" />
+    <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/.idea/workspace.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373909377943" ignored="false" />
     <file path="/index.html" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373667024126" ignored="false" />
     <file path="/login.jsp" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373874122751" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/WEB-INF/pages/scripts/Utils.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373879010120" ignored="false" />
     <file path="/HomePageController.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373704046433" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/WEB-INF/pages/scripts/AjaxAPI.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373892843213" ignored="false" />
     <file path="/AjaxAPI.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373889663958" ignored="false" />
-    <file path="/toDoLoginPage.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373892591012" ignored="false" />
-    <file path="/log4j.properties" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373891296127" ignored="false" />
+    <file path="/toDoLoginPage.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373900591682" ignored="false" />
+    <file path="/log4j.properties" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373901413030" ignored="false" />
     <file path="/toDoAJAXController.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373893516607" ignored="false" />
     <file path="/toDoEntity.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373873339492" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/WEB-INF/pages/scripts/DataModel.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373873322639" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/WEB-INF/pages/scripts/LoginPage.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373873497920" ignored="false" />
     <file path="/Utils.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373873679895" ignored="false" />
-    <file path="/toDoEntityFunc.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373875784459" ignored="false" />
-    <file path="/securityContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373880795598" ignored="false" />
+    <file path="/toDoEntityFunc.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373896121078" ignored="false" />
+    <file path="/securityContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373896641324" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/.idea/ant.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373881916697" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/WEB-INF/requestDispatcher-servlet.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373882163827" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/login.jsp" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373882629865" ignored="false" />
+    <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/resources/springSecurityContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373896623407" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,28 +128,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="toDoAJAXController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoAJAXController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="41" selection-start="392" selection-end="392" vertical-scroll-proportion="0.37549406">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toDoEntityFunc.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntityFunc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toDoEntity.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="toDoLoginPage.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="90" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.0">
+            <state line="64" column="10" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/UserController.java">
+      <file leaf-file-name="securityContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/securityContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+            <state line="22" column="74" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/TaskController.java">
+      <file leaf-file-name="toDoController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,59 +185,34 @@
       <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+            <state line="31" column="39" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/DTO/UserDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="28" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/User.java">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+            <state line="46" column="22" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toDoAJAXController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoAJAXController.js">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requestDispatcher-servlet.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/requestDispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="66" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webApplicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/webApplicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="32" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/favicon.ico">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="securityContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/securityContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="71" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
+            <state line="14" column="68" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -225,22 +228,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntityMethods.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/pom.xml" />
-        <option value="$PROJECT_DIR$/service/pom.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/login.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/webApplicationContext.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntityFunc.js" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/TaskController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/securityContext.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoAJAXController.js" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/requestDispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntity.js" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/securityContext.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/UserAuthority.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/User.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/com/teamdev/service/UserServiceDTOTest.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/com/teamdev/service/TaskServiceDTOTest.java" />
+        <option value="$PROJECT_DIR$/service/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoAJAXController.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntityFunc.js" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/DTO/UserDTO.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/User.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/UserService.java" />
       </list>
     </option>
   </component>
@@ -772,6 +775,96 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-hibernate - копия last 15072013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-hibernate - копия last 15072013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-hibernate - копия last 15072013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DTO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -804,18 +897,18 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.teamdev.service.dao" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.teamdev.model.entity" />
       <recent name="com.teamdev.web.controller" />
       <recent name="com.teamdev.service.dao" />
       <recent name="com.teamdev.service.smokeTests" />
       <recent name="com.teamdev.service" />
-      <recent name="com.teamdev.sample" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\TeamDev\afterJuly\spring-hibernate - копия last 15072013\web\src\main\webapp\WEB-INF\pages\js\lib" />
@@ -831,16 +924,16 @@
       <recent name="com.teamdev.service.dao" />
       <recent name="com.teamdev.model.dao" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.teamdev.service" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\TeamDev\afterJuly\spring-hibernate - копия last 15072013\web\src\main\webapp\WEB-INF\pages" />
       <recent name="F:\TeamDev\afterJuly\spring-hibernate - копия last 15072013\web\src\main\webapp" />
       <recent name="F:\TeamDev\afterJuly\spring-hibernate - копия last 15072013\web\src\main\webapp\WEB-INF" />
       <recent name="C:\java\spring-hibernate - копия last 09072013\web\src\main\webapp\WEB-INF\pages" />
       <recent name="F:\TeamDev\spring-hibernate\web\src\main\webapp\WEB-INF\pages" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.teamdev.service" />
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
@@ -1145,12 +1238,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="119" y="65" width="1467" height="959" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26683292" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1159,20 +1253,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32478634" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3241895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26900148" sideWeight="0.21775313" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.049822062" sideWeight="0.6334165" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27615657" sideWeight="0.6334165" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36658356" sideWeight="0.49701938" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27615657" sideWeight="0.6895262" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31047383" sideWeight="0.49701938" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26768377" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39874214" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1236,9 +1329,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoListInit.js">
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoListModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/UserAuthority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/com/teamdev/service/TaskServiceDTOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="86" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/com/teamdev/service/UserServiceDTOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="93" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="61" selection-start="729" selection-end="733" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1250,6 +1380,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/securityContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="74" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="10" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1257,91 +1401,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="538" selection-end="538" vertical-scroll-proportion="-7.967742">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="90" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntityFunc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="87" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="90" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.0">
+        <state line="46" column="22" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="68" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/DTO/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="28" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/TaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+        <state line="31" column="39" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoAJAXController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/securityContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="71" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/webApplicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/requestDispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="66" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0">
+        <state line="10" column="41" selection-start="392" selection-end="392" vertical-scroll-proportion="0.37549406">
           <folding />
         </state>
       </provider>

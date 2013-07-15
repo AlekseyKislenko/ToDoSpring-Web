@@ -1,6 +1,7 @@
 package com.teamdev.model.entity.DTO;
 
 import com.teamdev.model.entity.User;
+import com.teamdev.model.entity.UserAuthority;
 
 import java.io.Serializable;
 
@@ -10,18 +11,40 @@ import java.io.Serializable;
 
 public class UserDTO implements Serializable {
     private Long id;
-    private String login;
+    private String username;
     private String password;
+    private UserAuthority authority;
+    private Boolean enabled;
+
     private TaskDTO tasks;
     private TaskDTO tasksAssignee;
 
     public UserDTO(User user) {
         this.id = user.getId();
-        this.login = user.getLogin();
+        this.username = user.getUsername();
         this.password = user.getPassword();
+        this.authority = user.getAuthority();
+        this.enabled = user.getEnabled();
         this.tasks = new TaskDTO(user.getTasksByUser(user));
         this.tasksAssignee = new TaskDTO(user.getTasksByUserAssignee(user));
     }
+
+    public UserDTO(Long id, String username, String password, UserAuthority authority, Boolean enabled) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.authority = authority;
+        this.enabled = enabled;
+    }
+
+    public UserDTO(String username, String password, UserAuthority authority, Boolean enabled) {
+
+        this.username = username;
+        this.password = password;
+        this.authority = authority;
+        this.enabled = enabled;
+    }
+
 
     public Long getId() {
         return id;
@@ -31,12 +54,12 @@ public class UserDTO implements Serializable {
         this.id = id;
     }
 
-    public String getLogin() {
-        return login;
+    public String getUsername() {
+        return username;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -45,6 +68,21 @@ public class UserDTO implements Serializable {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+    public UserAuthority getAuthority() {
+        return authority;
+    }
+
+    public void setAuthority(UserAuthority authority) {
+        this.authority = authority;
+    }
+
+    public Boolean getEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(Boolean enabled) {
+        this.enabled = enabled;
     }
 
     public TaskDTO getTasks() {
@@ -67,7 +105,7 @@ public class UserDTO implements Serializable {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", login='" + login + '\'' +
+                ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 '}';
     }
