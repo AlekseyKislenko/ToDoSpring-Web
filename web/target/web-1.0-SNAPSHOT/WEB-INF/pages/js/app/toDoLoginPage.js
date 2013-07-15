@@ -51,11 +51,12 @@ $(document).ready(function () {
 
     //createNewUser
     function createNewUser() {
+        var id;
         var username = $("#loginRegistration").val();
         var password = $("#passwordRegistration").val();
         var authority = "ROLE_USER";
         var enabled = true;
-        var user = new User (username, password, authority, enabled);
+        var user = new User (id, username, password, authority, enabled);
         console.log("username: " + username);
         console.log("password: " + password);
         console.log("authority: " + authority);
@@ -63,6 +64,7 @@ $(document).ready(function () {
 
         toDoEntity.createEntityUser(user);
         toDoAJAX.createUser(user, function(){
+            //console.log("userId: " + user.getId());
             console.log("username: " + user.getUsername());
             console.log("password: " + user.getPassword());
             $("#registrationForm").fadeOut(400);
@@ -70,6 +72,4 @@ $(document).ready(function () {
             $("#loginCreate").fadeIn(100);
         })
     }
-
-
 });

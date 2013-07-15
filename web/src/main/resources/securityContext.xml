@@ -16,8 +16,8 @@
     <authentication-manager>
         <authentication-provider>
             <jdbc-user-service id="userDetailsService" data-source-ref="dataSource"
-                               users-by-username-query="SELECT username, password, enabled FROM userDTO WHERE username=?"
-                               authorities-by-username-query="SELECT username, authority FROM userDTO WHERE username=?"/>
+                               users-by-username-query="SELECT username, password, enabled FROM user WHERE username=?"
+                               authorities-by-username-query="SELECT username, authority FROM user WHERE username=?"/>
         </authentication-provider>
     </authentication-manager>
 

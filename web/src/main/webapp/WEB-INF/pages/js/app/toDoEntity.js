@@ -1,9 +1,13 @@
-function User(username, password, authority, enabled) {
+function User(id, username, password, authority, enabled) {
+    this.id = id;
     this.username = username;
     this.password = password;
     this.authority = authority;
     this.enabled = enabled;
 
+    this.getId = function () {
+        return this.id;
+    };
 
     this.getUsername = function () {
         return this.username;

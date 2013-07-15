@@ -17,7 +17,7 @@ import java.util.List;
  */
 @Service
 @Transactional
-public class UserService implements User {
+public class UserService implements Users {
 
     @PersistenceContext
     private EntityManager em;
@@ -25,10 +25,6 @@ public class UserService implements User {
     @Override
     public UserDTO createUser(String username, String password, UserAuthority authority, Boolean enabled) {
         com.teamdev.model.entity.User user = new com.teamdev.model.entity.User(username, password, authority, enabled);
-        user.setUsername(username);
-        user.setPassword(password);
-        user.setAuthority(authority);
-        user.setEnabled(enabled);
         em.persist(user);
         return new UserDTO(user);
     }

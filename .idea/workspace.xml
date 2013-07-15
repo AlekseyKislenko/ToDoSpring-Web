@@ -9,14 +9,14 @@
     <file path="/pom.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373876376806" ignored="false" />
     <file path="/User.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372111427710" ignored="false" />
     <file path="/Task.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372118733273" ignored="false" />
-    <file path="/fragment.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373897480853" ignored="false" />
+    <file path="/fragment.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373912100510" ignored="false" />
     <file path="/applicationContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373357428834" ignored="false" />
     <file path="/PersonServiceTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370810036324" ignored="false" />
     <file path="/Dao.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370893629729" ignored="false" />
     <file path="/UserImpl.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370728676988" ignored="false" />
     <file path="/TaskImpl.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370732749555" ignored="false" />
     <file path="/TaskServiceTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1371670766368" ignored="false" />
-    <file path="/TaskService.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373356101880" ignored="false" />
+    <file path="/TaskService.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373918194184" ignored="false" />
     <file path="/Dummy.txt" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373349144898" ignored="false" />
     <file path="/UserService.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373908063032" ignored="false" />
     <file path="/persistence.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1370949725573" ignored="false" />
@@ -31,7 +31,7 @@
     <file path="/UserDTO.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373901998488" ignored="false" />
     <file path="/TastStateDTO.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1371483808826" ignored="false" />
     <file path="/TaskStateDTO.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1371484628696" ignored="false" />
-    <file path="/a.dummy" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373908114594" ignored="false" />
+    <file path="/a.dummy" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373918203184" ignored="false" />
     <file path="/TestScene.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1371671243640" ignored="false" />
     <file path="/TaskServiceDAOTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372089029744" ignored="false" />
     <file path="/TaskServiceDTOTest.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1372118987129" ignored="false" />
@@ -40,7 +40,7 @@
     <file path="$PROJECT_DIR$/../Копии/TeamDev_Lesson_2_-Step_3-Панько_Fresh/ToDoListServer-master/ToDoListServer/.idea/workspace.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373343127719" ignored="false" />
     <file path="/UserController.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373353780082" ignored="false" />
     <file path="/requestDispatcher-servlet.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373879606115" ignored="false" />
-    <file path="/TaskController.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373356206619" ignored="false" />
+    <file path="/TaskController.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373917726925" ignored="false" />
     <file path="/index.jsp" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373672001424" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoSample/TeamDev_Lesson_2_-Step_3-Zhykharev/TeamDev_Lesson_2_-Step_3-master/webModule/src/main/webapp/WEB-INF/requestDispatcher-servlet.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373357590400" ignored="false" />
     <file path="/UserIterface.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373353568063" ignored="false" />
@@ -49,26 +49,28 @@
     <file path="$PROJECT_DIR$/../ToDoSample/TeamDev_Lesson_2_-Step_3-Zhykharev/TeamDev_Lesson_2_-Step_3-master/webModule/src/main/webapp/WEB-INF/web.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373355732072" ignored="false" />
     <file path="/springSecurityContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373896572201" ignored="false" />
     <file path="/DefaultPageController.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373358967532" ignored="false" />
-    <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/.idea/workspace.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373909377943" ignored="false" />
+    <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/.idea/workspace.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373918592311" ignored="false" />
     <file path="/index.html" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373667024126" ignored="false" />
     <file path="/login.jsp" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373874122751" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/WEB-INF/pages/scripts/Utils.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373879010120" ignored="false" />
     <file path="/HomePageController.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373704046433" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/WEB-INF/pages/scripts/AjaxAPI.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373892843213" ignored="false" />
     <file path="/AjaxAPI.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373889663958" ignored="false" />
-    <file path="/toDoLoginPage.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373900591682" ignored="false" />
+    <file path="/toDoLoginPage.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373915372008" ignored="false" />
     <file path="/log4j.properties" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373901413030" ignored="false" />
-    <file path="/toDoAJAXController.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373893516607" ignored="false" />
-    <file path="/toDoEntity.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373873339492" ignored="false" />
+    <file path="/toDoAJAXController.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373915147447" ignored="false" />
+    <file path="/toDoEntity.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373913878496" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/WEB-INF/pages/scripts/DataModel.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373873322639" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/WEB-INF/pages/scripts/LoginPage.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373873497920" ignored="false" />
     <file path="/Utils.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373873679895" ignored="false" />
-    <file path="/toDoEntityFunc.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373896121078" ignored="false" />
+    <file path="/toDoEntityFunc.js" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373916250122" ignored="false" />
     <file path="/securityContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373896641324" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/.idea/ant.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373881916697" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/WEB-INF/requestDispatcher-servlet.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373882163827" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/webapp/login.jsp" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373882629865" ignored="false" />
     <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/resources/springSecurityContext.xml" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373896623407" ignored="false" />
+    <file path="/Tasks.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373917789263" ignored="false" />
+    <file path="$PROJECT_DIR$/../ToDoListServer-Panko-130713/ToDoListServer/web-view/src/main/java/com/teamdev/todolist/controller/HomePageController.java" changelist="bea6abd7-e632-472e-af88-f153421ef5ca" time="1373918380900" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,55 +130,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="toDoAJAXController.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoAJAXController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="41" selection-start="392" selection-end="392" vertical-scroll-proportion="0.37549406">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="toDoEntityFunc.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntityFunc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+            <state line="19" column="8" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toDoEntity.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntity.js">
+      <file leaf-file-name="TaskController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toDoLoginPage.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="10" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="securityContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/securityContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="74" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toDoController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="25" column="42" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,34 +151,75 @@
       <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="39" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+            <state line="49" column="9" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDTO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/DTO/UserDTO.java">
+      <file leaf-file-name="IndexPageController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/IndexPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="28" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
+            <state line="10" column="20" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/User.java">
+      <file leaf-file-name="toDoLoginPage.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="22" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
+            <state line="64" column="40" selection-start="2188" selection-end="2188" vertical-scroll-proportion="1.187747">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/resources/applicationContext.xml">
+      <file leaf-file-name="TaskService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/TaskService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="68" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+            <state line="46" column="32" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#2008#2038#0" expanded="true" />
+                <element signature="e#2484#2493#0" expanded="true" />
+                <element signature="e#2681#2711#0" expanded="true" />
+                <element signature="e#3189#3198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskState.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/TaskState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="12" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tasks.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/Tasks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="44" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskDTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/DTO/TaskDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="5" selection-start="670" selection-end="991" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,22 +235,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/requestDispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntity.js" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/securityContext.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/UserAuthority.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/User.java" />
-        <option value="$PROJECT_DIR$/service/src/test/java/com/teamdev/service/UserServiceDTOTest.java" />
-        <option value="$PROJECT_DIR$/service/src/test/java/com/teamdev/service/TaskServiceDTOTest.java" />
         <option value="$PROJECT_DIR$/service/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/web/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoAJAXController.js" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntityFunc.js" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/DTO/UserDTO.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/User.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/securityContext.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntity.js" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/UserService.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoAJAXController.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntityFunc.js" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/Tasks.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/TaskService.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/LoginPageController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/IndexPageController.java" />
       </list>
     </option>
   </component>
@@ -657,6 +664,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -897,11 +912,11 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.teamdev.service.dao" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.teamdev.service.dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.teamdev.model.entity" />
@@ -924,16 +939,16 @@
       <recent name="com.teamdev.service.dao" />
       <recent name="com.teamdev.model.dao" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.teamdev.service" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\TeamDev\afterJuly\spring-hibernate - копия last 15072013\web\src\main\webapp\WEB-INF\pages" />
       <recent name="F:\TeamDev\afterJuly\spring-hibernate - копия last 15072013\web\src\main\webapp" />
       <recent name="F:\TeamDev\afterJuly\spring-hibernate - копия last 15072013\web\src\main\webapp\WEB-INF" />
       <recent name="C:\java\spring-hibernate - копия last 09072013\web\src\main\webapp\WEB-INF\pages" />
       <recent name="F:\TeamDev\spring-hibernate\web\src\main\webapp\WEB-INF\pages" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.teamdev.service" />
-      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
@@ -1238,7 +1253,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="119" y="65" width="1467" height="959" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1260,8 +1275,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.049822062" sideWeight="0.6334165" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27615657" sideWeight="0.6895262" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31047383" sideWeight="0.49701938" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27615657" sideWeight="0.6895262" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31047383" sideWeight="0.49701938" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1329,81 +1344,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoListModel.js">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/UserAuthority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/test/java/com/teamdev/service/TaskServiceDTOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="86" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0">
+        <state line="21" column="38" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/test/java/com/teamdev/service/UserServiceDTOTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="93" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="61" selection-start="729" selection-end="733" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/securityContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="74" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="10" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntityFunc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+        <state line="25" column="13" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1415,30 +1365,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="68" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+        <state line="11" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/DTO/UserDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="39" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+        <state line="11" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoAJAXController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="392" selection-end="392" vertical-scroll-proportion="0.37549406">
+        <state line="22" column="1" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoEntityFunc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="8" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/Tasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="44" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="42" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="9" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/teamdev/service/dao/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="32" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2008#2038#0" expanded="true" />
+            <element signature="e#2484#2493#0" expanded="true" />
+            <element signature="e#2681#2711#0" expanded="true" />
+            <element signature="e#3189#3198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/TaskState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/DTO/TaskDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="5" selection-start="670" selection-end="991" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/teamdev/model/entity/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/teamdev/web/controller/IndexPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/js/app/toDoLoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="40" selection-start="2188" selection-end="2188" vertical-scroll-proportion="1.187747">
           <folding />
         </state>
       </provider>

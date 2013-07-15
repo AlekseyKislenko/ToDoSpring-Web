@@ -2,6 +2,7 @@ package com.teamdev.service.dao;
 
 import com.teamdev.model.entity.DTO.TaskDTO;
 import com.teamdev.model.entity.DTO.UserDTO;
+import com.teamdev.model.entity.Task;
 import com.teamdev.model.entity.TaskState;
 import com.teamdev.model.entity.User;
 import org.springframework.stereotype.Service;
@@ -20,7 +21,7 @@ import java.util.List;
 @Service
 
 @Transactional
-public class TaskService implements Task {
+public class TaskService implements Tasks {
 
     @PersistenceContext
     private EntityManager em;
@@ -29,14 +30,22 @@ public class TaskService implements Task {
     public TaskDTO createTask(String taskText, UserDTO userDTO) {
         User user = em.find(User.class, userDTO.getId());
         com.teamdev.model.entity.Task task = new com.teamdev.model.entity.Task();
-
         task.setTaskState(TaskState.UNFINISHED);
         task.setTaskDate();
         task.setTaskText(taskText);
         task.setTaskUser(user);
         task.setTaskAssignee(user);
-
         em.persist(task);
+        return new TaskDTO(task);
+    }
+    @Override
+    public TaskDTO createTask(TaskDTO taskDTO) {
+        taskDTO.getTaskState();
+        taskDTO.getTaskDate();
+        taskDTO.getTaskText();
+        taskDTO.getTaskUser();
+        taskDTO.getTaskAssignee();
+        Task task = new Task();
         return new TaskDTO(task);
     }
 
@@ -125,6 +134,8 @@ public class TaskService implements Task {
         em.clear();
         return true;
     }
+
+
 
 
 }
