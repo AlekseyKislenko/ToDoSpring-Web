@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="bd6bf19c-81b7-4c43-ae71-df14af1f5004">
+    <synchronize>true</synchronize>
+    <jdbc-driver>sun.jdbc.odbc.JdbcOdbcDriver</jdbc-driver>
+    <jdbc-url>jdbc:odbc:&lt;data-source-name>[;&lt;attribute-name>=&lt;attribute-value>]*</jdbc-url>
+    <default-dialect>HSQLDB</default-dialect>
+    <libraries>
+      <library>
+        <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>
